@@ -7,5 +7,5 @@
     <mat-icon>home</mat-icon>
   </button>
   <button mat-button routerLink="/about">About</button>
-  <button mat-button routerLink="/logout" *ngIf="login">Logout</button>
+  <button mat-button routerLink="/logout" (click)="onLogout()" *ngIf="login">Logout</button>
 </mat-toolbar>

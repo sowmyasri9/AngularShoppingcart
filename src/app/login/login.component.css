@@ -1,6 +1,6 @@
 .login-wrapper{
     
-        height: 50vh;
+        height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -11,3 +11,14 @@
         flex: 1 1 auto;
       }
 
+      #error{
+color:red;
+      }
+      .login{
+        float:left;
+
+      }
+      .signup{
+        float:right;
+      }
+    

@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   login = [];
+  error:String="";
   success: boolean = false;
   public loginObj = {
     email: '',
@@ -29,17 +30,19 @@ export class LoginComponent implements OnInit {
 
     for (var i = 0; i < this.login.length; i++) {
       if (email === this.login[i].email && password === this.login[i].password) {
-        sessionStorage.setItem('username', "admin");
-        this.success = true;
-        this.routes.navigate(['/home']);
+        if(email!==""&&password!==""){
+          sessionStorage.setItem('username', "admin");
+          this.success = true;
+          this.routes.navigate(['/home']);
+        }
+      
       }
-
-
     }
     if (this.success !== true) {
+this.error="Incorrect credentials";
       this.routes.navigate(['/login']);
     }
 
   }
-
+ 
 }

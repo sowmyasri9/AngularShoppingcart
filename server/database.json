@@ -1,41 +1,51 @@
 {
-    "login": [{
-"email":"first@gmail.com",
-"password":"first@gmail.com"
-
+  "login": [
+    {
+      "id": "1",
+      "email": "first@gmail.com",
+      "password": "first@gmail.com"
     },
-{
-    "email":"second@gmail.com",
-    "password":"second@gmail.com"
-},
-{
-    "email":"third@gmail.com",
-    "password":"third@gmail.com"
-},
-{
-    "email":"fourth@gmail.com",
-    "password":"fourth@gmail.com"
-}],
-"products":[{
-"name":"Dell 15.6\"Latitude 3500 Laptop",
-"price":"779$",
-"description":"Dell 15.6\"Latitude 3500 Laptop's IPS anti-glare display features a Full HD 1920 x 1080 screen resolution and a 16:9 aspect ratio. The 144 Hz refresh rate helps reduce motion blurs and screen tearing. Visuals are handled by the dedicated NVIDIA GeForce RTX 2060 graphics card with 6GB of GDDR6 VRAM."
-},
-{
-    "name":"Acer Aspire 5 Slim Laptop ",
-"price":"629$",
-"description":"TAcer Aspire 5 Slim Laptop  is designed to tackle your everyday tasks and help you stay productive. Equipped with a 1.8 GHz Intel Core i7-8565U quad-core processor, 8GB of DDR4 memory, and a 512GB SSD, it can quickly boot and load applications as well as improve your multitasking capabilities."
-},
-{
-    "name":"Lenevo 15.6\"IdeaPad 5 Laptop(Platinum Grey) ",
-    "price":"700$",
-    "description":"Take advantage of quick processing power and ample storage with the 15.6\" IdeaPad 5 Laptop in platinum gray from Lenovo. Designed for everyday computing, web browsing, or media streaming, this IdeaPad features a 2.3 GHz AMD Ryzen 5 4500U six-core CPU and 8GB of soldered DDR4 RAM."
-},
-{
-    "name":"ASUS ZenBook Duo UX481FL Multi-Touch Laptop ",
-    "price":"250$",
-    "description":"ZenBook Duo UX481FL Multi-Touch Laptop from ASUS features a unique design that's more screen than usual. Its ScreenPad Plus measures 12.6\" diagonally and offers users multitasking capabilities that laptops didn't have before."
-}
-
-]
+    {
+      "id": "2",
+      "email": "second@gmail.com",
+      "password": "second@gmail.com"
+    },
+    {
+      "id": "3",
+      "email": "third@gmail.com",
+      "password": "third@gmail.com"
+    },
+    {
+      "id": "4",
+      "email": "fourth@gmail.com",
+      "password": "fourth@gmail.com"
+    },
+    {
+      "id": "5",
+      "email": "fifth@gmail.com",
+      "password": "fifth@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Dell 15.6\"Latitude 3500 Laptop",
+      "price": "779$",
+      "description": "Dell 15.6\"Latitude 3500 Laptop's IPS anti-glare display features a Full HD 1920 x 1080 screen resolution and a 16:9 aspect ratio. The 144 Hz refresh rate helps reduce motion blurs and screen tearing. Visuals are handled by the dedicated NVIDIA GeForce RTX 2060 graphics card with 6GB of GDDR6 VRAM."
+    },
+    {
+      "name": "Acer Aspire 5 Slim Laptop ",
+      "price": "629$",
+      "description": "TAcer Aspire 5 Slim Laptop  is designed to tackle your everyday tasks and help you stay productive. Equipped with a 1.8 GHz Intel Core i7-8565U quad-core processor, 8GB of DDR4 memory, and a 512GB SSD, it can quickly boot and load applications as well as improve your multitasking capabilities."
+    },
+    {
+      "name": "Lenevo 15.6\"IdeaPad 5 Laptop(Platinum Grey) ",
+      "price": "700$",
+      "description": "Take advantage of quick processing power and ample storage with the 15.6\" IdeaPad 5 Laptop in platinum gray from Lenovo. Designed for everyday computing, web browsing, or media streaming, this IdeaPad features a 2.3 GHz AMD Ryzen 5 4500U six-core CPU and 8GB of soldered DDR4 RAM."
+    },
+    {
+      "name": "ASUS ZenBook Duo UX481FL Multi-Touch Laptop ",
+      "price": "250$",
+      "description": "ZenBook Duo UX481FL Multi-Touch Laptop from ASUS features a unique design that's more screen than usual. Its ScreenPad Plus measures 12.6\" diagonally and offers users multitasking capabilities that laptops didn't have before."
+    }
+  ]
 }
