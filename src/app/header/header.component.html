@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <h1>
+    Angular Shopping Cart
+  </h1>
+  <span class="spacer"></span>
+  <button mat-fab color="primary" routerLink="/home" aria-label="Example icon button with a home icon">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-button routerLink="/about">About</button>
+  <button mat-button routerLink="/logout" *ngIf="login">Logout</button>
+</mat-toolbar>
