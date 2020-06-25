@@ -1,0 +1,10 @@
+.box{
+    height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:40px;
+}
+#success{
+    color:green;
+}

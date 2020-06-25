@@ -1,0 +1,44 @@
+<div class="box">
+
+    <mat-card>
+        <h2>
+            Cash On Delivery Mode
+            <br/>
+            Amount to be payed : ₹ {{payment}}
+
+        </h2>
+        <h3>Address</h3>
+        <form (ngSubmit)="onAddressSubmit(addObj.name,addObj.phone,addObj.address,addObj.state,addObj.country,addObj.pincode)">
+            <mat-form-field>
+                <input  matInput name = "name" placeholder = "Enter Full Name" [(ngModel)]="addObj.name" required>
+            </mat-form-field>
+            <br/>
+            <mat-form-field>
+                <input  matInput name = "phone" placeholder = "Enter Phone Number" [(ngModel)]="addObj.phone" required>
+            </mat-form-field>
+            <br/>
+            <mat-form-field>
+                <input  matInput name = "address" placeholder = "Enter Address" [(ngModel)]="addObj.address" required>
+            </mat-form-field>
+
+            <br/>
+            <mat-form-field>
+                <input  matInput name = "state" placeholder = "Enter State" [(ngModel)]="addObj.state" required>
+            </mat-form-field>
+            <br/>
+            <mat-form-field>
+                <input  matInput name = "country" placeholder = "Enter Country" [(ngModel)]="addObj.country" required>
+            </mat-form-field>
+            <br/>
+            <mat-form-field>
+                <input  matInput name = "pincode" placeholder = "Enter PIN Code" [(ngModel)]="addObj.pincode" required>
+            </mat-form-field>
+            <div class="login">
+                <button type="submit" mat-raised-button color="primary" class="btn-block">Proceed</button>
+              </div>  
+         </form>
+         <h5 id="success">{{success}}</h5>
+    </mat-card>
+
+</div>
+

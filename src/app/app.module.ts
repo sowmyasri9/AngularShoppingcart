@@ -23,6 +23,8 @@ import { HeaderComponent } from './header/header.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { LogoutComponent } from './logout/logout.component';
 import { SignupComponent } from './signup/signup.component';
+import { CheckItemsComponent } from './check-items/check-items.component';
+import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { SignupComponent } from './signup/signup.component';
     HeaderComponent,
     NotfoundComponent,
     LogoutComponent,
-    SignupComponent
+    SignupComponent,
+    CheckItemsComponent,
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,

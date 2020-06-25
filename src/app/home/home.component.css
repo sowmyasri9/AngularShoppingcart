@@ -1,3 +1,24 @@
 .spinner{
 align-self: center;
 }
+#payment{
+    margin-top:30px;
+    margin-left: 550px;
+    margin-right: 500px;
+    margin-bottom:30px;
+
+}
+#refresh{
+    margin-top:30px;
+    margin-left: 620px;
+    margin-right: 500px;
+}
+.favorite{
+    float:right;
+}
+.add{
+    float:left;
+}
+.products{
+    margin-top:30px;height: 170px;
+}
